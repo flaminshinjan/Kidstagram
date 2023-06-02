@@ -1,6 +1,6 @@
 import 'package:demo_app/screens/eventspage.dart';
 import 'package:flutter/material.dart';
-import 'package:demo_app/screens/new_taskpage';
+import 'package:demo_app/screens/new_taskpage.dart';
 
 class Story {
   final String name;
@@ -129,6 +129,57 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(left: 15),
+            child: Row(
+              children: [
+                MaterialButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomePage()),
+                    );
+                  },
+
+                  minWidth: 67, // Adjust the minimum width
+                  height: 23, // Adjust the height
+                  color: const Color.fromARGB(255, 255, 136, 0),
+                  textColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: const Text(
+                    'Daily Posts',
+                    style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.black,
+                        fontWeight: FontWeight.w500),
+                  ),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                MaterialButton(
+                  onPressed: () {},
+
+                  minWidth: 67, // Adjust the minimum width
+                  height: 23, // Adjust the height
+                  color: Color.fromARGB(255, 253, 253, 253),
+                  textColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: const Text(
+                    'Discussion and Polling',
+                    style: TextStyle(
+                        fontSize: 12,
+                        color: Color.fromARGB(92, 0, 0, 0),
+                        fontWeight: FontWeight.w500),
+                  ),
+                ),
+              ],
+            ),
+          ),
           Expanded(
             child: ListView.builder(
               itemCount: posts.length,
@@ -201,7 +252,7 @@ class HomePage extends StatelessWidget {
                             IconButton(
                                 onPressed: () {},
                                 icon: Image.asset(
-                                  'assets/chat.png',
+                                  'assets/Chat.png',
                                   height: 28,
                                 )),
                           ]),
@@ -304,6 +355,11 @@ class HomePage extends StatelessWidget {
             MaterialPageRoute(builder: (context) => NewTaskPage()),
           );
         },
+        backgroundColor: const Color.fromARGB(255, 255, 136, 0),
+        shape: RoundedRectangleBorder(
+          borderRadius:
+              BorderRadius.circular(30), // Set the desired corner radius
+        ),
         child: Icon(Icons.add),
       ),
     );
