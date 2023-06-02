@@ -1,6 +1,7 @@
 import 'package:demo_app/screens/eventspage.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_app/screens/new_taskpage.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 class Story {
   final String name;
@@ -19,6 +20,7 @@ class Post {
 
 class HomePage extends StatelessWidget {
   static const String routeName = '/home';
+  final SupabaseClient supabase = Supabase.instance.client;
   final List<Story> stories = [
     Story(name: 'Meme Club', image: 'assets/stars.jpg'),
     Story(name: 'Tech Club', image: 'assets/cars.jpg'),
@@ -54,9 +56,9 @@ class HomePage extends StatelessWidget {
         toolbarHeight: 80,
         // Adjust the value as needed
         leading: IconButton(
-          icon: Icon(Icons.more_vert_outlined),
-          onPressed: () {
-            // Handle menu button press
+          icon: Icon(Icons.logout),
+          onPressed: () async {
+            await supabase.auth.signOut();
           },
         ),
         title: Row(
