@@ -1,3 +1,4 @@
+import 'package:demo_app/screens/eventspage.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_app/screens/new_taskpage';
 
@@ -18,7 +19,6 @@ class Post {
 
 class HomePage extends StatelessWidget {
   static const String routeName = '/home';
-
   final List<Story> stories = [
     Story(name: 'Meme Club', image: 'assets/stars.jpg'),
     Story(name: 'Tech Club', image: 'assets/cars.jpg'),
@@ -27,7 +27,6 @@ class HomePage extends StatelessWidget {
     Story(name: 'Reading Club', image: 'assets/books.jpg'),
     // Add more stories with different names and images
   ];
-
   final List<Post> posts = [
     Post(
       name: 'John',
@@ -264,8 +263,8 @@ class HomePage extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Column(
               children: [
-                Icon(Icons.computer_outlined),
-                Text('AI'),
+                Icon(Icons.calendar_month_outlined),
+                Text('Events'),
               ],
             ),
             label: '',
@@ -282,8 +281,8 @@ class HomePage extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Column(
               children: [
-                Icon(Icons.calendar_month_outlined),
-                Text('Events'),
+                Icon(Icons.computer_outlined),
+                Text('AI'),
               ],
             ),
             label: '',
@@ -293,7 +292,7 @@ class HomePage extends StatelessWidget {
           if (index == 2) {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => NewTaskPage()),
+              MaterialPageRoute(builder: (context) => EventsPage()),
             );
           }
         },

@@ -1,4 +1,5 @@
 import 'package:demo_app/screens/login.dart';
+import 'package:demo_app/screens/new_taskpage.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_app/screens/homepage.dart';
 import 'package:demo_app/screens/splash.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => SplashScreen(),
         '/login': (context) => Login(),
         '/home': (context) => HomePage(),
+        '/newtask': (context) => NewTaskPage(),
       },
     );
   }
