@@ -2,13 +2,12 @@
 
 Kidstagram is a kid-friendly social media application built with Flutter and Supabase. It provides a safe and fun environment for kids to share their photos and connect with friends in a secure way. The app features a visually appealing and intuitive user interface that is designed with kids in mind.
 
-# Some Screens of the app as well as video demo.
+# Glimpse
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 00 AM" src="https://github.com/flaminshinjan/dream_catcher/assets/116586681/dc94d6a1-f036-432a-be92-6cca99e431a1">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 32 AM" src="https://github.com/flaminshinjan/dream_catcher/assets/116586681/99b04d0f-f91c-455f-9b14-ede492ba0e1f">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 42 AM" src="https://github.com/flaminshinjan/dream_catcher/assets/116586681/b69c16d1-5c4f-4ddd-9d40-ea5ac7a28981">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/flaminshinjan/dream_catcher/assets/116586681/8da36b7e-0a71-40db-8624-488bd6ad65a8">
 
-https://github.com/flaminshinjan/dream_catcher/assets/116586681/acca4a7b-a890-47f3-9a71-4e1bd934b12e
 
 ## Features
 
@@ -47,7 +46,8 @@ flutter run
 
 
 Make sure you have Flutter and Dart installed on your machine before running the app.
-
+## Walkthrough of Kidstagram -
+https://github.com/flaminshinjan/dream_catcher/assets/116586681/acca4a7b-a890-47f3-9a71-4e1bd934b12e
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request. Make sure to follow the code formatting and style guidelines defined in the project.
