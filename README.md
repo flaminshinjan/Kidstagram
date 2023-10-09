@@ -1,6 +1,6 @@
 # Kidstagram
 
-Kidstagram is a kid-friendly social media application built with Flutter and Supabase. It provides a safe and fun environment for kids to share their photos and connect with friends in a secure way. The app features a visually appealing and intuitive user interface that is designed with kids in mind.
+Kidstagram is a kid-friendly social media application built with Flutter and Supabase. It provides a safe and fun environment for kids to share their photos and connect with friends in a secure way. The app features a visually appealing and intuitive user interface that is designed with kids in our minds.
 
 # Glimpse
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 00 AM" src="https://github.com/flaminshinjan/dream_catcher/assets/116586681/dc94d6a1-f036-432a-be92-6cca99e431a1">
