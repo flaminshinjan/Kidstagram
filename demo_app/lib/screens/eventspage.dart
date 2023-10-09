@@ -55,7 +55,7 @@ class EventsPage extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 630,
+                height: 553,
                 child: TabBarView(
                   children: [
                     // Widget for Tab 1
@@ -146,7 +146,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -170,7 +170,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '60 %',
@@ -180,7 +180,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -297,7 +297,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -321,7 +321,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '50 %',
@@ -331,7 +331,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -447,7 +447,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -471,7 +471,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '80 %',
@@ -481,7 +481,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -597,7 +597,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -621,7 +621,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '70 %',
@@ -631,7 +631,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -756,7 +756,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -780,7 +780,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '60 %',
@@ -790,7 +790,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -907,7 +907,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -931,7 +931,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '50 %',
@@ -941,7 +941,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1057,7 +1057,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1081,7 +1081,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '80 %',
@@ -1091,7 +1091,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1207,7 +1207,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1231,7 +1231,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '70 %',
@@ -1241,7 +1241,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1366,7 +1366,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1390,7 +1390,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '60 %',
@@ -1400,7 +1400,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1517,7 +1517,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1541,7 +1541,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '50 %',
@@ -1551,7 +1551,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1667,7 +1667,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1691,7 +1691,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '80 %',
@@ -1701,7 +1701,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},
@@ -1817,7 +1817,7 @@ class EventsPage extends StatelessWidget {
                                               fontWeight: FontWeight.w700,
                                               fontSize: 15),
                                         ),
-                                        SizedBox(width: 98),
+                                        SizedBox(width: 70),
                                         IconButton(
                                             onPressed: () {},
                                             icon: Image.asset(
@@ -1841,7 +1841,7 @@ class EventsPage extends StatelessWidget {
                                             height: 10,
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 15,
                                           ),
                                           Text(
                                             '70 %',
@@ -1851,7 +1851,7 @@ class EventsPage extends StatelessWidget {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(
-                                            width: 75,
+                                            width: 40,
                                           ),
                                           MaterialButton(
                                             onPressed: () {},

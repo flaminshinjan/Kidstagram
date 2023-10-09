@@ -55,26 +55,27 @@ class HomePage extends StatelessWidget {
         foregroundColor: Colors.black,
         toolbarHeight: 80,
         // Adjust the value as needed
-        leading: IconButton(
-          icon: Icon(Icons.logout),
-          onPressed: () async {
-            await supabase.auth.signOut();
-          },
-        ),
+        automaticallyImplyLeading: false,
         title: Row(
           children: [
             SizedBox(
-              height: 28,
-              width: 190,
+              height: 25,
+              width: 160,
               child: Image.asset(
                 'assets/logo.png',
-                height: 28,
+                height: 20,
                 width: 190,
               ),
             ),
           ],
         ),
         actions: [
+          IconButton(
+            icon: Icon(Icons.logout),
+            onPressed: () async {
+              await supabase.auth.signOut();
+            },
+          ),
           IconButton(
             icon: Icon(Icons.search_rounded),
             onPressed: () {
@@ -210,7 +211,7 @@ class HomePage extends StatelessWidget {
                                 height: 35,
                                 width: 35,
                               ),
-                              SizedBox(width: 10),
+                              SizedBox(width: 5),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -227,7 +228,7 @@ class HomePage extends StatelessWidget {
                                   ),
                                 ],
                               ),
-                              SizedBox(width: 229),
+                              SizedBox(width: 200),
                               Icon(
                                 Icons.more_horiz,
                               )
