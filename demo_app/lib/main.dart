@@ -1,10 +1,15 @@
 import 'package:demo_app/screens/login.dart';
+import 'package:demo_app/screens/main_layout.dart';
 import 'package:demo_app/screens/new_taskpage.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_app/screens/homepage.dart';
 import 'package:demo_app/screens/splash.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'bypass_login.dart';  // Import from local path since it's in the same directory
+
+// Set to true to bypass Supabase auth for development
+const bool DEV_MODE = false;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,10 +35,11 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => SplashScreen(),
-        '/auth': (context) => AuthPage(),
-        '/login': (context) => Login(),
+        '/': (context) => DEV_MODE ? const DevBypass() : SplashScreen(),
+        '/auth': (context) => DEV_MODE ? const DevBypass() : AuthPage(),
+        '/login': (context) => DEV_MODE ? const DevBypass() : Login(),
         '/home': (context) => HomePage(),
+        '/main': (context) => MainLayout(),
         '/newtask': (context) => NewTaskPage(),
       },
     );
@@ -70,6 +76,6 @@ class _AuthPageState extends State<AuthPage> {
 
   @override
   Widget build(BuildContext context) {
-    return _user == null ? const Login() : HomePage();
+    return _user == null ? const Login() : MainLayout();
   }
 }

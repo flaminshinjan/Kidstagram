@@ -1894,69 +1894,7 @@ class EventsPage extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Column(
-              children: [
-                Icon(
-                  Icons.home_outlined,
-                ),
-                Text('Home'),
-              ],
-            ),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Column(
-              children: [
-                Icon(Icons.chat_bubble_outline),
-                Text('Chat'),
-              ],
-            ),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Column(
-              children: [
-                Icon(Icons.calendar_month_outlined, color: Colors.orange),
-                Text(
-                  'Events',
-                  style: TextStyle(color: Colors.orange),
-                )
-              ],
-            ),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Column(
-              children: [
-                Icon(Icons.file_open_outlined),
-                Text('Learn'),
-              ],
-            ),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Column(
-              children: [
-                Icon(Icons.computer_outlined),
-                Text('AI'),
-              ],
-            ),
-            label: '',
-          ),
-        ],
-        onTap: (int index) {
-          if (index == 0) {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => HomePage()),
-            );
-          }
-        },
-      ),
+      
     );
   }
 }
